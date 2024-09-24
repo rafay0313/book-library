@@ -10,7 +10,7 @@ class Library {
     print('--------LIST ALL BOOKS IN LIBRARY----------');
     for (var book in books) {
       print(
-          'title: ${book.title} author: ${book.author} isbn: ${book.isbn} isavilable: ${book.isavilable}');
+          'BOOK NAME: ${book.name} author: ${book.author} isbn: ${book.isbn} isavilable: ${book.isavilable}');
     }
   }
 }
