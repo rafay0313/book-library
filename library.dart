@@ -1,8 +1,8 @@
 import 'book.dart';
 class Library {
-  List<book> books = [];
+  List<Book> books = [];
 
-  void addbook(book book) {
+  void addbook(Book book) {
     books.add(book);
   }
 
